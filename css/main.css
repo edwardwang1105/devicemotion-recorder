@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #F5F3EE;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  width: 50%;
+  margin: auto;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.disable {
+  opacity: 0.2;
+}
