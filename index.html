@@ -10,17 +10,22 @@
     <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
     <!-- Place favicon.ico in the root directory -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div id="result" class="container">
-      <div id="chart"></div>
+      <div id="chart">
+        <svg></svg>
+      </div>
       <textarea id="log" rows="10"></textarea>
     </div>
     <div id="control" class="fix-bottom">
       <img id="play-btn" src="img/play.svg" class="center"/>
     </div>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
